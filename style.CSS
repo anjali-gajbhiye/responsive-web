@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+    text-align: center;
+  
+}
+body{
+    background-image:url('images/hand-img.jpg') ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+h1{
+    color:white;
+    background-color:#500F4C;
+   height:5rem;
+   line-height: 5rem;  
+}
+.choices{
+display: flex;
+justify-content: center;
+ align-items: center;
+ gap: 3rem;
+ margin-top: 5rem;
+}
+.choice{
+   
+   height:165px;
+   width:165px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #500F4C;
+   border-radius: 50%;
+    padding:5px;
+  
+}
+
+.choice:hover{
+ cursor: pointer;
+ background-color:rgb(161, 11, 14);
+}
+
+img{
+    height:165px;
+    width:165px;
+    object-fit: cover;
+    border-radius:50%;
+    
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+}
+
+.score-board{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    font-size: 2rem;
+    gap:5rem;
+    font-weight:300;
+    color:#720137;
+}
+
+#user-score,#comp-score{
+    font-size:4rem ;
+}
+ .msg-container:hover{
+    cursor: pointer;
+ }
+
+ .msg-container{
+margin-top: 5rem;
+ }
+#msg{
+    background-color: #500F4C;
+    color:white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius:1rem;
+  display: inline;
+}
